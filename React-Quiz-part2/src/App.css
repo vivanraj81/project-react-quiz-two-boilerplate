@@ -1,0 +1,68 @@
+.previous, .next, .quit{
+  margin: 36px;
+  line-height: 40px;
+  width: 100px;
+  border: solid black 2px;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+.quit{
+  background-color: rgb(178, 56, 56);
+}
+.quit:hover{
+  background-color: red;
+  box-shadow: 4px 6px black;
+  color: aliceblue;
+  font-weight: bold;
+}
+.next{
+  background-color: rgb(58, 138, 58);
+}
+.next:hover{
+  background-color: rgb(26, 202, 26);
+  box-shadow: 4px 6px black;
+  color: aliceblue;
+  font-weight: bold;
+}
+.previous:hover{
+  background-color: blue;
+  box-shadow: 4px 6px black;
+  color: aliceblue;
+  font-weight: bold;
+}
+.previous{
+  background-color: rgb(69, 101, 160);
+}
+body{
+  background-color: rgb(59,48,127);
+  text-align: center;
+  margin: 5%;
+}
+.pack{
+  display: flex;
+  margin-right: 17%;
+  margin-left: 20%;
+  justify-content: space-evenly;
+  /* border: 1px solid black ; */
+}
+.a{
+  background-color: rgb(24,149,235);
+  line-height: 50px;
+  border-radius: 10px;
+  width: 300px;
+  height: 5vh;
+  font-size: larger;
+  font-weight: bold;
+}
+.a:hover{
+  background-color: #2c497a;
+  box-shadow: 4px 8px black;
+  color: aliceblue;
+  font-weight: bold;
+}
+.box{
+  text-align: center;
+  background-color: rgb(222, 225, 229);
+  height: 50vh;
+}
